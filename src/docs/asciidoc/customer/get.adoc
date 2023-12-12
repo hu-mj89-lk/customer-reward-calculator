@@ -1,0 +1,9 @@
+=== Get
+
+==== Request
+
+include::{snippets}/customer/get/http-request.adoc[]
+
+==== Response
+
+include::{snippets}/customer/get/http-response.adoc[]

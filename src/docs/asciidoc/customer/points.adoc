@@ -1,0 +1,9 @@
+=== Points
+
+==== Request
+
+include::{snippets}/customer/points/http-request.adoc[]
+
+==== Response
+
+include::{snippets}/customer/points/http-response.adoc[]

@@ -1,0 +1,14 @@
+= Customer Reward Calculator API
+
+== Customer API
+
+include::customer/create.adoc[]
+include::customer/update.adoc[]
+include::customer/get.adoc[]
+include::customer/points.adoc[]
+
+== Transaction API
+
+include::transaction/create.adoc[]
+include::transaction/update.adoc[]
+include::transaction/get.adoc[]

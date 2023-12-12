@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="CustomerRewardCalculatorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+    <module name="customer-reward-calculator.main" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.customer_reward_calculator.CustomerRewardCalculatorApplication" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

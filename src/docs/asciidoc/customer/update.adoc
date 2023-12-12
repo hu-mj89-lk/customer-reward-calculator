@@ -1,0 +1,9 @@
+=== Update
+
+==== Request
+
+include::{snippets}/customer/update/http-request.adoc[]
+
+==== Response
+
+include::{snippets}/customer/update/http-response.adoc[]
