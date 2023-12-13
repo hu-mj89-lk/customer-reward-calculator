@@ -75,47 +75,47 @@
               "raw": "http://localhost:8080/customer/1",
               "protocol": "http",
               "host": [
-				  "localhost"
-			  ],
-				"port": "8080",
-				"path": [
-					"customer",
-					"1"
-				]
-			}
-		  },
-			"response": []
-		},
-		  {
-			  "name": "POINTS",
-			  "request": {
-				  "method": "POST",
-				  "header": [],
-				  "body": {
-					  "mode": "raw",
-					  "raw": "{\r\n    \"customerId\": 1,\r\n    \"year\": 2023,\r\n    \"months\": [\r\n        1,\r\n        4,\r\n        6\r\n    ]\r\n}",
-					  "options": {
-						  "raw": {
-							  "language": "json"
-						  }
-					  }
-				  },
-				  "url": {
-					  "raw": "http://localhost:8080/customer/points",
-					  "protocol": "http",
-					  "host": [
-						  "localhost"
-					  ],
-					  "port": "8080",
-					  "path": [
-						  "customer",
-						  "points"
-					  ]
-				  }
-			  },
-			  "response": []
-		  }
-	  ]
+                "localhost"
+              ],
+              "port": "8080",
+              "path": [
+                "customer",
+                "1"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "POINTS",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"customerId\": 1,\r\n    \"year\": 2023,\r\n    \"months\": [\r\n        1,\r\n        4,\r\n        6\r\n    ]\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8080/customer/points",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8080",
+              "path": [
+                "customer",
+                "points"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
     },
     {
       "name": "TRANSACTION",
@@ -126,14 +126,14 @@
             "method": "POST",
             "header": [],
             "body": {
-				"mode": "raw",
-				"raw": "{\r\n    \"customerId\": 3,\r\n    \"amount\": 23.67\r\n}",
-				"options": {
-					"raw": {
-						"language": "json"
-					}
-				}
-			},
+              "mode": "raw",
+              "raw": "{\r\n    \"customerId\": 3,\r\n    \"amount\": 23.67\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
             "url": {
               "raw": "http://localhost:8080/transaction",
               "protocol": "http",
@@ -154,26 +154,26 @@
             "method": "PUT",
             "header": [],
             "body": {
-				"mode": "raw",
-				"raw": "{\r\n    \"customerId\": 2,\r\n    \"amount\": 171.28\r\n}",
-				"options": {
-					"raw": {
-						"language": "json"
-					}
-				}
-			},
+              "mode": "raw",
+              "raw": "{\r\n    \"customerId\": 2,\r\n    \"amount\": 171.28\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
             "url": {
-				"raw": "http://localhost:8080/transaction/2",
-				"protocol": "http",
-				"host": [
-					"localhost"
-				],
-				"port": "8080",
-				"path": [
-					"transaction",
-					"2"
-				]
-			}
+              "raw": "http://localhost:8080/transaction/2",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8080",
+              "path": [
+                "transaction",
+                "2"
+              ]
+            }
           },
           "response": []
         },
